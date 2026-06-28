@@ -7,7 +7,7 @@
 [![Redis](https://img.shields.io/badge/Redis-7.x-DC382D?logo=redis&logoColor=white)](https://redis.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Enterprise transaction monitoring and fraud detection platform built with TypeScript, MongoDB, and Redis.
+Realtime Fraud Detection is a production-grade, enterprise-scale transaction monitoring system designed specifically for modern financial institutions. Built entirely as a TypeScript monorepo, it provides a seamless and highly performant pipeline capable of ingesting, analyzing, and flagging millions of concurrent transactions for suspicious activity. The backend leverages the speed of Redis for real-time WebSocket streaming and caching, combined with the reliability of MongoDB for persistent storage of user and transaction histories. On the frontend, compliance officers are equipped with a powerful React-based dashboard that offers live transaction monitoring, automated Suspicious Activity Report (SAR) generation, and deep-dive investigative tools to quickly identify and mitigate potential fraud vectors before they impact the business.
 
 ---
 
