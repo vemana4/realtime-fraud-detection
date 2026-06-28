@@ -1,4 +1,4 @@
-# 🛡️ Fraud Sentinel
+# Realtime Fraud Detection
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)
@@ -7,7 +7,7 @@
 [![Redis](https://img.shields.io/badge/Redis-7.x-DC382D?logo=redis&logoColor=white)](https://redis.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A production-grade, real-time fraud detection and transaction monitoring platform. Built as a TypeScript monorepo, Fraud Sentinel combines a high-performance backend with an enterprise-class React dashboard, offering financial institutions the tools to detect, investigate, and report fraudulent activity across millions of transactions.
+Enterprise transaction monitoring and fraud detection platform built with TypeScript, MongoDB, and Redis.
 
 ---
 
