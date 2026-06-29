@@ -26,12 +26,22 @@ On the frontend, risk management and compliance officers are equipped with a pow
 - **🏪 Merchant Profiling** — Risk scoring and monitoring at the merchant level
 - **📈 Model Performance** — ML model accuracy tracking, precision/recall metrics, and drift detection
 
+### ⚙️ Fraud Detection Rule Schemes
+
+| Rule Identifier | Trigger Parameter | Threshold | Mitigation Action | Risk Level |
+| :--- | :--- | :--- | :--- | :--- |
+| **VEL-001** | Multi-transaction velocity | > 5 trans / 10s | Temporary Account Hold | High |
+| **GEO-002** | Geolocation travel deviation | > 500 miles / hr | Multi-Factor Authentication | Medium |
+| **AMT-003** | Single transaction value | > $10,000 USD | Manual Compliance Hold & SAR | High |
+| **MER-004** | Flagged merchant interaction | Direct match | Automated Transaction Decline | Critical |
+| **DEV-005** | Device fingerprint anomaly | > 3 new devices | Email Verification Alert | Low |
+
 ---
 
 ## 🏗️ Architecture
 
 ```
-fraud-sentinel/
+realtime-fraud-detection/
 ├── artifacts/
 │   ├── api-server/          # Express.js REST API + WebSocket Server
 │   │   ├── src/
@@ -96,8 +106,8 @@ fraud-sentinel/
 
 ```bash
 # Clone the repository
-git clone https://github.com/vemana4/fraud-sentinel.git
-cd fraud-sentinel
+git clone https://github.com/vemana4/realtime-fraud-detection.git
+cd realtime-fraud-detection
 
 # Install all workspace dependencies
 pnpm install
